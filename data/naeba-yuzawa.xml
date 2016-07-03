@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<accesspoint name="越後湯澤" to="苗場">
+    <outbound>
+        <transportation available="allyear" type="bus" fare="600" drive="37" km="10" name="南越後觀光巴士・苗場、浅貝、西武 行">
+            <source>http://www.minamiechigo.co.jp/pdf/jikoku-280401/muikamachi/0401/crystal2.pdf</source>
+            <info></info>
+            <timetable>
+                <departure time="08:20" arrival="08:57"/>
+                <departure time="09:15" arrival="09:52"/>
+                <departure time="10:10" arrival="10:47" available="holiday" />
+                <departure time="11:40" arrival="12:17"/>
+                <departure time="13:00" arrival="13:37"/>
+                <departure time="14:50" arrival="15:27"/>
+                <departure time="16:10" arrival="16:47"/>
+                <departure time="18:00" arrival="18:37"/>
+            </timetable>
+        </transportation>
+    </outbound>
+    <inbound>
+        <transportation available="allyear" type="bus" fare="600" drive="42" km="10" name="南越後觀光巴士・湯沢駅前 行">
+            <source>http://www.minamiechigo.co.jp/pdf/jikoku-280401/muikamachi/0401/crystal2.pdf</source>
+            <info></info>
+            <timetable>
+                <departure time="09:20" arrival="10:02"/>
+                <departure time="10:15" arrival="10:57"/>
+                <departure time="11:10" arrival="11:52" available="holiday" />
+                <departure time="12:40" arrival="13:22"/>
+                <departure time="14:00" arrival="14:42"/>
+                <departure time="15:50" arrival="16:32"/>
+                <departure time="17:10" arrival="17:52"/>
+                <departure time="19:00" arrival="19:42"/>
+            </timetable>
+        </transportation>
+    </inbound>
+</accesspoint>

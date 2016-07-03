@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<accesspoint name="東京" to="成田機場">
+    <outbound>
+        <transportation available="true" type="highwaybus" drive="100" km="78" fare="1000" name="THE ACCESS NARITA高速巴士・東京行">
+            <timetable>
+                <departure time="07:25" arrival="09:05"/>
+                <departure time="07:45" arrival="09:25"/>
+                <departure time="08:05" arrival="09:45"/>
+                <departure time="08:25" arrival="10:05"/>
+                <departure time="08:45" arrival="10:25"/>
+                <departure time="09:05" arrival="10:45"/>
+                <departure time="09:25" arrival="11:05"/>
+                <departure time="09:45" arrival="11:25"/>
+                <departure time="10:05" arrival="11:45"/>
+                <departure time="10:25" arrival="12:05"/>
+                <departure time="10:45" arrival="12:25"/>
+                <departure time="11:05" arrival="12:45"/>
+                <departure time="11:25" arrival="13:05"/>
+                <departure time="11:45" arrival="13:25"/>
+                <departure time="12:05" arrival="13:45"/>
+                <departure time="12:25" arrival="14:05"/>
+                <departure time="12:45" arrival="14:25"/>
+                <departure time="13:05" arrival="14:45"/>
+                <departure time="13:25" arrival="15:05"/>
+                <departure time="13:45" arrival="15:25"/>
+                <departure time="14:05" arrival="15:45"/>
+                <departure time="14:25" arrival="16:05"/>
+                <departure time="14:45" arrival="16:25"/>
+                <departure time="15:05" arrival="16:45"/>
+                <departure time="15:25" arrival="17:05"/>
+                <departure time="15:45" arrival="17:25"/>
+                <departure time="16:05" arrival="17:45"/>
+                <departure time="16:25" arrival="18:05"/>
+                <departure time="16:45" arrival="18:25"/>
+                <departure time="17:05" arrival="18:45"/>
+                <departure time="17:25" arrival="19:05"/>
+                <departure time="17:45" arrival="19:25"/>
+                <departure time="18:05" arrival="19:45"/>
+                <departure time="18:25" arrival="20:05"/>
+                <departure time="18:45" arrival="20:25"/>
+                <departure time="19:05" arrival="20:45"/>
+                <departure time="19:25" arrival="21:05"/>
+                <departure time="19:45" arrival="21:25"/>
+                <departure time="20:05" arrival="21:45"/>
+                <departure time="20:25" arrival="22:05"/>
+                <departure time="20:45" arrival="22:25"/>
+                <departure time="21:05" arrival="22:45"/>
+                <departure time="21:25" arrival="23:05"/>
+                <departure time="21:45" arrival="23:25"/>
+                <departure time="22:05" arrival="23:45"/>
+            </timetable>
+            <source>http://accessnarita.jp/cn1/home/</source>
+            <info></info>
+        </transportation>
+    </outbound>
+    <inbound>
+        <transportation type="highwaybus" drive="100" fare="1000" km="78" name="THE ACCESS NARITA高速巴士・成田機場行">
+            <timetable>
+                <departure time="07:25" arrival="09:05"/>
+                <departure time="07:45" arrival="09:25"/>
+                <departure time="08:05" arrival="09:45"/>
+                <departure time="08:25" arrival="10:05"/>
+                <departure time="08:45" arrival="10:25"/>
+                <departure time="09:05" arrival="10:45"/>
+                <departure time="09:25" arrival="11:05"/>
+                <departure time="09:45" arrival="11:25"/>
+                <departure time="10:05" arrival="11:45"/>
+                <departure time="10:25" arrival="12:05"/>
+                <departure time="10:45" arrival="12:25"/>
+                <departure time="11:05" arrival="12:45"/>
+                <departure time="11:25" arrival="13:05"/>
+                <departure time="11:45" arrival="13:25"/>
+                <departure time="12:05" arrival="13:45"/>
+                <departure time="12:25" arrival="14:05"/>
+                <departure time="12:45" arrival="14:25"/>
+                <departure time="13:05" arrival="14:45"/>
+                <departure time="13:25" arrival="15:05"/>
+                <departure time="13:45" arrival="15:25"/>
+                <departure time="14:05" arrival="15:45"/>
+                <departure time="14:25" arrival="16:05"/>
+                <departure time="14:45" arrival="16:25"/>
+                <departure time="15:05" arrival="16:45"/>
+                <departure time="15:25" arrival="17:05"/>
+                <departure time="15:45" arrival="17:25"/>
+                <departure time="16:05" arrival="17:45"/>
+                <departure time="16:25" arrival="18:05"/>
+                <departure time="16:45" arrival="18:25"/>
+                <departure time="17:05" arrival="18:45"/>
+                <departure time="17:25" arrival="19:05"/>
+                <departure time="17:45" arrival="19:25"/>
+                <departure time="18:05" arrival="19:45"/>
+                <departure time="18:25" arrival="20:05"/>
+                <departure time="18:45" arrival="20:25"/>
+                <departure time="19:05" arrival="20:45"/>
+                <departure time="19:25" arrival="21:05"/>
+                <departure time="19:45" arrival="21:25"/>
+                <departure time="20:05" arrival="21:45"/>
+                <departure time="20:25" arrival="22:05"/>
+                <departure time="20:45" arrival="22:25"/>
+                <departure time="21:05" arrival="22:45"/>
+                <departure time="21:25" arrival="23:05"/>
+                <departure time="21:45" arrival="23:25"/>
+                <departure time="22:05" arrival="23:45"/>
+            </timetable>
+            <source>http://accessnarita.jp/cn1/home/</source>
+            <info></info>
+        </transportation>
+    </inbound>
+</accesspoint>

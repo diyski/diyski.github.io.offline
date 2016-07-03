@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<accesspoint name="新宿高速バスターミナル" to="苗場">
+    <outbound>
+        <transportation available="true" type="highwaybus" drive="200" km="200" fare="2500" name="高速巴士・苗場滑雪場行">
+            <timetable><departure time="07:30" arrival="10:50"/></timetable>
+            <source>http://www.bus-channel.com/Taiwan/ski/from_kanto/naeba.html</source>
+            <info>前往&lt;a&gt;預訂&lt;/a&gt;。巴士公司：オリオン。</info>
+        </transportation>
+        <transportation type="nightbus" drive="420" fare="3500" km="200" name="高速夜行巴士・苗場滑雪場行">
+            <timetable><departure time="22:00" arrival="05:00"/></timetable>
+            <source>http://www.bus-channel.com/Taiwan/ski/from_kanto/naeba.html</source>
+            <info>前往&lt;a&gt;預訂&lt;/a&gt;。巴士公司：サミー(GoGo!Bus)。</info>
+        </transportation>
+    </outbound>
+    <inbound>
+        <transportation type="highwaybus" drive="240" fare="3500" km="200" name="高速巴士・新宿、東京行">
+            <timetable><departure time="17:30" arrival="21:30"/></timetable>
+            <source>http://www.bus-channel.com/Taiwan/ski/to_kanto/naeba2.html</source>
+            <info>前往&lt;a&gt;預訂&lt;/a&gt;。巴士公司：オリオン。</info>
+        </transportation>
+        <transportation type="highwaybus" drive="210" fare="3500" km="200" name="高速巴士・新宿、東京行">
+            <timetable><departure time="17:50" arrival="21:30"/></timetable>
+            <source>http://www.bus-channel.com/Taiwan/ski/to_kanto/naeba2.html</source>
+            <info>前往&lt;a&gt;預訂&lt;/a&gt;。巴士公司：サミー(GoGo!Bus)。</info>
+        </transportation>
+    </inbound>
+</accesspoint>

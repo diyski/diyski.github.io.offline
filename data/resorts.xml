@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skiResorts>
+    <resort name="苗場">
+        <accessPoint name="新宿" filename="naeba-sinjuku.xml"></accessPoint>
+        <accessPoint name="越後湯澤" filename="naeba-yuzawa.xml"></accessPoint>
+    </resort>
+    <resort name="野澤溫泉">
+        <accessPoint name="新宿" filename="nozawa-sinjuku.xml"></accessPoint>
+        <accessPoint name="飯山" filename="nozawa-iiyama.xml"></accessPoint>
+    </resort>
+    <resort name="成田機場">
+        <accessPoint name="東京" filename="narita-tokyo.xml"></accessPoint>
+    </resort>
+    <resort name="niseko">
+        <accessPoint name="新千歳空港" filename="niseko-newchitose.xml"></accessPoint>
+    </resort>
+</skiResorts>

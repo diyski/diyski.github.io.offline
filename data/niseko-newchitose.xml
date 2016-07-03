@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<accesspoint name="新千歳空港" to="niseko">
+    <outbound>
+        <transportation type="highwaybus" drive="150" km="100" fare="4000" name="White Line機場巴士・Niseko行">
+            <timetable>
+                <departure time="09:30" arrival="12:00"/>
+                <departure time="10:30" arrival="13:00"/>
+                <departure time="11:30" arrival="14:00"/>
+                <departure time="12:30" arrival="15:00"/>
+                <departure time="13:45" arrival="16:15"/>
+                <departure time="15:00" arrival="17:30"/>
+            </timetable>
+            <source>http://www.goodsports.co.jp/white_eng/ski-bus-niseko/niseko-chitose/</source>
+            <info>網路購票，來回票另有優惠。</info>
+        </transportation>
+    </outbound>
+    <inbound>
+        <transportation type="highwaybus" drive="150" km="100" fare="4000" name="White Line機場巴士・新千歳空港行">
+            <timetable>
+                <departure time="07:45" arrival="10:15"/>
+                <departure time="08:45" arrival="11:15"/>
+                <departure time="10:00" arrival="12:30"/>
+                <departure time="11:00" arrival="13:30"/>
+                <departure time="12:00" arrival="14:30"/>
+                <departure time="14:30" arrival="17:00"/>
+                <departure time="15:30" arrival="18:00"/>
+            </timetable>
+            <source>http://www.goodsports.co.jp/white_eng/ski-bus-niseko/niseko-chitose/</source>
+            <info>網路購票，來回票另有優惠。</info>
+        </transportation>
+    </inbound>
+</accesspoint>
